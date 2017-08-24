@@ -1,4 +1,4 @@
-Alli Gombolay, 3rd year PhD student in Bioinformatics
+Alli Gombolay, 3rd year PhD student in Bioinformatics  
 Alli's Hobbies: Learning new programming languages!
 
 # ahcg_pipeline
