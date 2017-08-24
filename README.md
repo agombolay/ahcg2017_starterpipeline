@@ -3,6 +3,8 @@ Alli's Hobbies: Learning new programming languages!
 
 # Markdown Format
 
+# Mission Statement
+
 # ahcg_pipeline
 Variant calling pipeline for genomic data analysis
 
