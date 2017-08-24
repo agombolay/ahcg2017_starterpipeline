@@ -1,3 +1,5 @@
+Alli Gombolay, 3rd year PhD student in Bioinformatics
+
 # ahcg_pipeline
 Variant calling pipeline for genomic data analysis
 
