@@ -1,7 +1,7 @@
 Alli Gombolay, 3rd year PhD student in Bioinformatics  
 Alli's Hobbies: Learning new programming languages!
 
-# Markup Format
+# Markdown Format
 
 # ahcg_pipeline
 Variant calling pipeline for genomic data analysis
