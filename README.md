@@ -25,6 +25,10 @@ Examples:
 ```
 
 ## Mission Statement
+To create robust and validated computational pipelines to detect cancer before symptoms become apparent.
+
+## Liquid Biopsy Companies
+* [GRAIL](https://grail.com/science/)
 
 ## Applied Human Computational Genomics Pipeline
 **Purpose**: Call variants in genomic data to detect somatic changes within the pool of circulating nucleic acids
