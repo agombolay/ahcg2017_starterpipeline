@@ -39,7 +39,7 @@ In contrast to solid biopsies, liquid biopsies is a non-invasive method to detec
 
 ## [Illumina Coverage Calculator](http://support.illumina.com/downloads/sequencing_coverage_calculator.html)
 * Calculate coverage needed to accurately detect somatic mutations
-* Liquid biopsies require a higher level of coverage than solid biopsies
+* Liquid biopsies require a much higher level of coverage than solid biopsies
   * We need orders of magnitude higher than standard 900-1100X coverage
 
 ## Applied Human Computational Genomics Pipeline
