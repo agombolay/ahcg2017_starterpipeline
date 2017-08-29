@@ -37,6 +37,9 @@ Dr. Vannberg's idea: Yearly non-invasive preventive test for cancer to save live
 * **Liquid biopsy**:  
 In contrast to solid biopsies, liquid biopsies is a non-invasive method to detect the presence of small fragments of tumor DNA, known as circulating tumor DNA (ctDNA). ctDNA originates from somatic mutations that occur in the tumor over the course of an individual's life unlike germline mutations that are present in all cells.
 
+## [Illumina Coverage Calculator](http://support.illumina.com/downloads/sequencing_coverage_calculator.html)
+* Calculate coverage needed to accurately detect somatic mutations
+
 ## Applied Human Computational Genomics Pipeline
 **Purpose**: Call variants in genomic data to detect somatic changes within the pool of circulating nucleic acids
 
