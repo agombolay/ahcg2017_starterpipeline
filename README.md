@@ -30,7 +30,7 @@ Examples:
 
 ## Mission Statement
 To create robust and validated computational pipelines to detect cancer before symptoms become apparent.  
-Dr. Vannberg's idea for a mission statement: Yearly non-invasive preventive test for cancer to save lives
+Dr. Vannberg's idea for a mission statement: Create a yearly non-invasive preventive test for cancer to save lives
 
 ## Liquid Biopsy Companies
 * [GRAIL](https://grail.com/science/)
