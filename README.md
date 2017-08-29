@@ -48,6 +48,7 @@ In contrast to solid biopsies, liquid biopsies is a non-invasive method to detec
 ### Requirements
 1. [Python3, Version 3.6.2](https://www.python.org/downloads/)
 2. Variant calling tools: [GATK, Version 3.8.0](https://software.broadinstitute.org/gatk/download/)
+  * [Best practices with GATK's Haplotype Caller](https://software.broadinstitute.org/gatk/best-practices/bp_3step.php?case=GermShortWGS)
 3. Reference-based read aligner: [Bowtie2, Version 2.3.2](http://bowtie-bio.sourceforge.net/bowtie2/index.shtml)
 4. Read trimming based on quality: [Trimmomatic, Version 0.36](http://www.usadellab.org/cms/?page=trimmomatic)
 5. Manipulation of genomic data files: [Picard tools, Version 2.11.0](http://broadinstitute.github.io/picard/)
