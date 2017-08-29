@@ -1,5 +1,8 @@
-Alli Gombolay, 3rd year PhD student in Bioinformatics  
-Alli's Hobbies: Learning new programming languages!
+Applied Human Computational Genomics 2017
+
+Author: Alli Gombolay
+About: 3rd year PhD student,Bioinformatics  
+Hobbies: Learning new programming languages!
 
 # Markdown Syntax
 * [Reference for Markdown syntax](https://guides.github.com/features/mastering-markdown/)
