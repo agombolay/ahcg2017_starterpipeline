@@ -1,7 +1,7 @@
 Alli Gombolay, 3rd year PhD student in Bioinformatics  
 Alli's Hobbies: Learning new programming languages!
 
-# Markdown Format
+# Markdown Syntax
 * [Reference for Markdown syntax](https://guides.github.com/features/mastering-markdown/)
 
 Examples:
