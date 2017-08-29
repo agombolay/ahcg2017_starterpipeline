@@ -1,6 +1,6 @@
 Applied Human Computational Genomics 2017
 
-Author: Alli Gombolay
+Author: Alli Gombolay  
 About: 3rd year PhD student,Bioinformatics  
 Hobbies: Learning new programming languages!
 
