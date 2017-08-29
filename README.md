@@ -9,9 +9,10 @@ Examples:
 ```
 # This is an <h1> tag
 ```
-* Italics
+* Emphasis
 ```
 *This text will be italic*
+**This text will be bold**
 ```
 * List
 ```
