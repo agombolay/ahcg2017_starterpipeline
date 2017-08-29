@@ -4,6 +4,10 @@ Author: Alli Gombolay
 About: 3rd year PhD student,Bioinformatics  
 Hobbies: Learning new programming languages!
 
+## GitHub
+* [Fork a repository](https://help.github.com/articles/fork-a-repo/)
+ * A fork is a copy of a repository
+
 ## Markdown Syntax
 * [Reference for Markdown syntax](https://guides.github.com/features/mastering-markdown/)
 
