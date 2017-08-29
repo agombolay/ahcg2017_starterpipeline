@@ -1,10 +1,10 @@
-Applied Human Computational Genomics 2017
+# Applied Human Computational Genomics 2017
 
 Author: Alli Gombolay  
 About: 3rd year PhD student,Bioinformatics  
 Hobbies: Learning new programming languages!
 
-# Markdown Syntax
+## Markdown Syntax
 * [Reference for Markdown syntax](https://guides.github.com/features/mastering-markdown/)
 
 Examples:
