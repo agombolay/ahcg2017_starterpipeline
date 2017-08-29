@@ -26,10 +26,10 @@ Examples:
 
 ## Mission Statement
 
-## ahcg_pipeline
+## Applied Human Computational Genomics Pipeline
 Variant calling pipeline for analysis of genomic data
 
-## Requirements
+### Requirements
 
 1. [GATK, Version 3.8.0](https://software.broadinstitute.org/gatk/download/)
 2. [Python3, Version 3.6.2](https://www.python.org/downloads/)
