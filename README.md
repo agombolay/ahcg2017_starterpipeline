@@ -5,14 +5,15 @@ Alli's Hobbies: Learning new programming languages!
 * [Reference for Markdown syntax](https://guides.github.com/features/mastering-markdown/)
 
 Examples:
+* Header
 ```
 # This is an <h1> tag
 ```
-
+* Italics
 ```
 *This text will be italic*
 ```
-
+* List
 ```
 * Item 1
   * Item 1a
