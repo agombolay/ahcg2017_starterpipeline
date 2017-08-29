@@ -40,10 +40,10 @@ In contrast to solid biopsies, liquid biopsies is a non-invasive method to detec
 ## Types of mutations/modifications to look for in liquid biopsies:
 1. Epigenetic modifications
   * Bisulfite sequencing to detect methylation
-2. Copy number alterations (CNA's)
-  * Changes in copy number of genes present in somatic tissue
-3. Single nucleotide variants (SNV's)
+2. Single nucleotide variants (SNV's)
   * Variation in nucleotide that can be present in somatic cells
+3. Copy number alterations (CNA's)
+  * Changes in copy number of genes present in somatic tissue
 
 ## [Illumina Coverage Calculator](http://support.illumina.com/downloads/sequencing_coverage_calculator.html)
 * Calculate coverage needed to accurately detect somatic mutations
