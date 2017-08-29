@@ -2,7 +2,16 @@ Alli Gombolay, 3rd year PhD student in Bioinformatics
 Alli's Hobbies: Learning new programming languages!
 
 # Markdown Format
+* [Reference for Markdown syntax] (https://guides.github.com/features/mastering-markdown/)
 
+Examples:
+# This is an <h1> tag
+
+*This text will be italic*
+
+* Item 1
+  * Item 1a
+  
 # Mission Statement
 
 # ahcg_pipeline
