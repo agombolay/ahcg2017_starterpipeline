@@ -29,8 +29,7 @@ To create robust and validated computational pipelines to detect cancer before s
 
 ## Liquid Biopsy Companies
 * [GRAIL](https://grail.com/science/)
-* **Liquid biopsy**:  
-In contrast to solid biopsies, liquid biopsies is a non-invasive method to detect the presence of small fragments of tumor DNA, known as circulating tumor DNA (ctDNA).
+* **Liquid biopsy**: In contrast to solid biopsies, liquid biopsies is a non-invasive method to detect the presence of small fragments of tumor DNA, known as circulating tumor DNA (ctDNA). ctDNA originates from somatic mutations that occur in the tumor during an individual's life.
 
 ## Applied Human Computational Genomics Pipeline
 **Purpose**: Call variants in genomic data to detect somatic changes within the pool of circulating nucleic acids
