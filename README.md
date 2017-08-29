@@ -38,9 +38,12 @@ Dr. Vannberg's idea for mission statement: Create a yearly non-invasive preventi
 In contrast to solid biopsies, liquid biopsies is a non-invasive method to detect the presence of small fragments of tumor DNA, known as circulating tumor DNA (ctDNA). ctDNA originates from somatic mutations that occur in the tumor over the course of an individual's life unlike germline mutations that are present in all cells.
 
 ## Types of mutations/modifications to look for in liquid biopsies:
-1. Copy number alterations (CNA's)
-2. Single nucleotide variants (SNV's)
-3. Epigenetic changes (bisulfate sequencing)
+1. Epigenetic modifications
+  * Bisulfite sequencing to detect methylation
+2. Copy number alterations (CNA's)
+  * Changes in copy number of genes present in somatic tissue
+3. Single nucleotide variants (SNV's)
+  * Variation in nucleotide that can be present in somatic cells
 
 ## [Illumina Coverage Calculator](http://support.illumina.com/downloads/sequencing_coverage_calculator.html)
 * Calculate coverage needed to accurately detect somatic mutations
