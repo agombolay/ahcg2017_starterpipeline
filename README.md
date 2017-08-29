@@ -27,7 +27,8 @@ Examples:
 ## Mission Statement
 
 ## Applied Human Computational Genomics Pipeline
-Variant calling pipeline for analysis of genomic data
+**Purpose**: Variant calling pipeline for analysis of genomic data to detect somatic changes within the pool of
+circulating nucleic acids
 
 ### Requirements
 
