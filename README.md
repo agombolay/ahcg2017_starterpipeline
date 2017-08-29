@@ -24,15 +24,15 @@ Examples:
   * Item 1a
 ```
 
-# Mission Statement
+## Mission Statement
 
-# ahcg_pipeline
-Variant calling pipeline for genomic data analysis
+## ahcg_pipeline
+Variant calling pipeline for analysis of genomic data
 
 ## Requirements
 
-1. [Python3 - version 3.4.1](https://www.python.org/download/releases/3.4.1/)
-2. [Trimmomatic - version 0.36](http://www.usadellab.org/cms/uploads/supplementary/Trimmomatic/Trimmomatic-0.36.zip)
-3. [Bowtie2 - version 2.2.9](https://sourceforge.net/projects/bowtie-bio/files/bowtie2/2.2.9/)
-4. [Picard tools - version 2.6.0](https://github.com/broadinstitute/picard/releases/download/2.6.0/picard.jar)
-5. [GATK - version 3.4](https://software.broadinstitute.org/gatk/download/)
+1. [GATK, Version 3.8.0](https://software.broadinstitute.org/gatk/download/)
+2. [Python3, Version 3.6.2](https://www.python.org/downloads/)
+3. [Bowtie2, Version 2.3.2](http://bowtie-bio.sourceforge.net/bowtie2/index.shtml)
+4. [Trimmomatic, Version 0.36](http://www.usadellab.org/cms/?page=trimmomatic)
+5. [Picard tools, Version 2.11.0](http://broadinstitute.github.io/picard/)
