@@ -57,3 +57,7 @@ In contrast to solid biopsies, liquid biopsies is a non-invasive method to detec
 3. Reference-based read aligner: [Bowtie2, Version 2.3.2](http://bowtie-bio.sourceforge.net/bowtie2/index.shtml)
 4. Read trimming based on quality: [Trimmomatic, Version 0.36](http://www.usadellab.org/cms/?page=trimmomatic)
 5. Manipulation of genomic data files: [Picard tools, Version 2.11.0](http://broadinstitute.github.io/picard/)
+
+### Data Acquisition
+* [SRA Toolkit](https://www.ncbi.nlm.nih.gov/sra/docs/toolkitsoft/)
+* [SRR948994](https://www.ncbi.nlm.nih.gov/sra/SRX332536[accn])
