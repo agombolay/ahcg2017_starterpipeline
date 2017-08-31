@@ -59,7 +59,7 @@ In contrast to solid biopsies, liquid biopsies is a non-invasive method to detec
 5. Manipulation of genomic data files: [Picard tools, Version 2.11.0](http://broadinstitute.github.io/picard/)
 
 ### Reference genome
-* Human reference genome (GRCh38) can be downloaded from [Illumina iGenomes](https://support.illumina.com/sequencing/sequencing_software/igenome.html)
+* Downloaded human reference genome (GRCh38) from [Illumina iGenomes](https://support.illumina.com/sequencing/sequencing_software/igenome.html)
 
 ### Data Acquisition
 * [Frampton et al, Nat Biotech 2013](http://www.nature.com/nbt/journal/v31/n11/full/nbt.2696.html?foxtrotcallback=true)
