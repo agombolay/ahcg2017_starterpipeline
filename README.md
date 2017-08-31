@@ -60,5 +60,5 @@ In contrast to solid biopsies, liquid biopsies is a non-invasive method to detec
 
 ### Data Acquisition
 * [Frampton et al, Nat Biotech 2013](http://www.nature.com/nbt/journal/v31/n11/full/nbt.2696.html?foxtrotcallback=true)
+* [SRR948994, 1 : 4 pool of tumor (NCI-H2126) and matched normal (NCI-H2126 BL) cell line DNA](https://www.ncbi.nlm.nih.gov/sra/SRX332536[accn])
 * [SRA Toolkit](https://www.ncbi.nlm.nih.gov/sra/docs/toolkitsoft/)
-* [SRR948994](https://www.ncbi.nlm.nih.gov/sra/SRX332536[accn])
