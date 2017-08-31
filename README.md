@@ -55,11 +55,11 @@ In contrast to solid biopsies, liquid biopsies is a non-invasive method to detec
 2. Variant calling tools: [GATK, Version 3.8.0](https://software.broadinstitute.org/gatk/download/)
   * [Best practices with GATK's Haplotype Caller](https://software.broadinstitute.org/gatk/best-practices/bp_3step.php?case=GermShortWGS)
 3. Reference-based read aligner: [Bowtie2, Version 2.3.2](https://sourceforge.net/projects/bowtie-bio/files/bowtie2/2.3.2/bowtie2-2.3.2-legacy-linux-x86_64.zip/download)
-4. Read trimming based on quality: [Trimmomatic, Version 0.36](http://www.usadellab.org/cms/?page=trimmomatic)
+4. Read trimming based on quality: [Trimmomatic, Version 0.36](http://www.usadellab.org/cms/uploads/supplementary/Trimmomatic/Trimmomatic-0.36.zip)
 5. Manipulation of genomic data files: [Picard tools, Version 2.11.0](http://broadinstitute.github.io/picard/)
 
 ### Reference genome
-* Download human reference genome (GRCh38) from [Illumina iGenomes](https://support.illumina.com/sequencing/sequencing_software/igenome.html)
+* Download human reference genome (GRCh38) from [Illumina iGenomes](ftp://igenome:G3nom3s4u@ussd-ftp.illumina.com/Homo_sapiens/NCBI/GRCh38/Homo_sapiens_NCBI_GRCh38.tar.gz)
 
 ### Data Acquisition
 * [Frampton et al, Nat Biotech 2013](http://www.nature.com/nbt/journal/v31/n11/full/nbt.2696.html?foxtrotcallback=true)
