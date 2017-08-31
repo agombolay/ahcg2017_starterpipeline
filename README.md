@@ -59,5 +59,6 @@ In contrast to solid biopsies, liquid biopsies is a non-invasive method to detec
 5. Manipulation of genomic data files: [Picard tools, Version 2.11.0](http://broadinstitute.github.io/picard/)
 
 ### Data Acquisition
+* [Frampton et al, Nat Biotech 2013](http://www.nature.com/nbt/journal/v31/n11/full/nbt.2696.html?foxtrotcallback=true)
 * [SRA Toolkit](https://www.ncbi.nlm.nih.gov/sra/docs/toolkitsoft/)
 * [SRR948994](https://www.ncbi.nlm.nih.gov/sra/SRX332536[accn])
