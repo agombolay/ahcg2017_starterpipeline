@@ -67,4 +67,4 @@ In contrast to solid biopsies, liquid biopsies is a non-invasive method to detec
 * [SRR948994, 1 : 4 pool of tumor (NCI-H2126) and matched normal (NCI-H2126 BL) cell line DNA](https://www.ncbi.nlm.nih.gov/sra/SRX332536[accn])
 
 ### Install Virtual Box
-* PDF with installation instructions
+* [PDF with installation instructions](ahcg2017_starterpipeline/VM_setup.pdf)
