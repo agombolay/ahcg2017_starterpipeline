@@ -86,6 +86,7 @@ python ahcg_pipeline.py -i /path/to/FASTQ1 /path/to/FASTQ2 -o /path/to/output -p
 -d /path/to/genome.vcf -t /path/to/trimmomatic-0.36.jar -a /path/to/adapters.fa -o /path/to/output
 
 ### Examples of DNA-seq Analysis and Variant Calling Pipelines
+* [MuSE](http://bioinformatics.mdanderson.org/main/MuSE)
 * [VarScan](http://varscan.sourceforge.net/)
 * [MuTect2](https://software.broadinstitute.org/gatk/documentation/tooldocs/current/org_broadinstitute_gatk_tools_walkers_cancer_m2_MuTect2.php)
 * [SomaticSniper](http://gmt.genome.wustl.edu/packages/somatic-sniper/)
