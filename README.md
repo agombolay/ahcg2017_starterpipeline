@@ -79,3 +79,12 @@ java -jar picard.jar CreateSequenceDictionary R=reference O=dictionary
 
 ### Install Virtual Box
 * [PDF with installation instructions](https://github.com/agombolay/ahcg2017_starterpipeline/blob/master/VM_setup.pdf)
+
+### Command to run pipeline
+python ahcg_pipeline.py -i /data2/AHCG2017FALL/data/SRR948994_1.fastq /data2/AHCG2017FALL/data/SRR948994_2.fastq \
+-t /data2/AHCG2017FALL/bin/Trimmomatic-0.36/trimmomatic-0.36.jar -b /data2/AHCG2017FALL/bin/bowtie2-2.2.9/bowtie2 \
+-p /data2/AHCG2017FALL/bin/picard/picard.jar -w /data2/AHCG2017FALL/reference_genome/Bowtie2Index/genome \
+-g /data2/AHCG2017FALL/bin/GenomeAnalysisTK-3.8-0-ge9d80683/GenomeAnalysisTK.jar \
+-d /data2/AHCG2017FALL/reference_genome/GATKResourceBundle/dbsnp_146.hg38.vcf.gz \
+-r /data2/AHCG2017FALL/reference_genome/genome.fa -o /data2/AHCG2017FALL/output \
+-a /data2/AHCG2017FALL/bin/Trimmomatic-0.36/adapters/NexteraPE-PE.fa
