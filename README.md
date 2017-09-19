@@ -61,6 +61,16 @@ In contrast to solid biopsies, liquid biopsies is a non-invasive method to detec
 ### Reference genome
 * Download human reference genome (GRCh38) from [Illumina iGenomes](https://support.illumina.com/sequencing/sequencing_software/igenome.html)
 
+```
+#Create FASTA index file
+samtools faidx reference.fa
+```
+
+```
+#Create FASTA dictionary file
+
+```
+
 ### Data Acquisition
 * [Frampton et al, Nat Biotech 2013](http://www.nature.com/nbt/journal/v31/n11/full/nbt.2696.html?foxtrotcallback=true)
 * [SRA (Short Read Archive) Toolkit: NCBI's toolkit to convert SRA files to Fastq](https://www.ncbi.nlm.nih.gov/sra/docs/toolkitsoft/)
