@@ -68,7 +68,8 @@ samtools faidx reference.fa
 
 ```
 #Create FASTA dictionary file
-
+#Note: Version 1.8 of Java is required to run Picard
+java -jar picard.jar CreateSequenceDictionary R=reference O=dictionary
 ```
 
 ### Data Acquisition
