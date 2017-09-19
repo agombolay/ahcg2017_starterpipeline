@@ -84,3 +84,9 @@ java -jar picard.jar CreateSequenceDictionary R=reference O=dictionary
 python ahcg_pipeline.py -i /path/to/FASTQ1 /path/to/FASTQ2 -o /path/to/output -p /path/to/picard.jar  
 -g /path/to/GenomeAnalysisTK.jar -b /path/to/bowtie2 -w /path/to/genome.bt2 -r /path/to/genome.fa  
 -d /path/to/genome.vcf -t /path/to/trimmomatic-0.36.jar -a /path/to/adapters.fa -o /path/to/output
+
+### Examples of DNA-seq Analysis and Variant Calling Pipelines
+* [VarScan](http://varscan.sourceforge.net/)
+* [MuTect2](https://software.broadinstitute.org/gatk/documentation/tooldocs/current/org_broadinstitute_gatk_tools_walkers_cancer_m2_MuTect2.php)
+* [SomaticSniper](http://gmt.genome.wustl.edu/packages/somatic-sniper/)
+* [GDC DNA-Seq analysis pipeline](https://docs.gdc.cancer.gov/Data/Bioinformatics_Pipelines/DNA_Seq_Variant_Calling_Pipeline/)
