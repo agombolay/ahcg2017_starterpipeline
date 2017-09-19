@@ -87,6 +87,7 @@ python ahcg_pipeline.py -i /path/to/FASTQ1 /path/to/FASTQ2 -o /path/to/output -p
 
 ### Examples of DNA-seq Analysis and Variant Calling Pipelines
 * [MuSE](http://bioinformatics.mdanderson.org/main/MuSE)
+* [LoFreq](http://csb5.github.io/lofreq/)
 * [VarScan](http://varscan.sourceforge.net/)
 * [MuTect2](https://software.broadinstitute.org/gatk/documentation/tooldocs/current/org_broadinstitute_gatk_tools_walkers_cancer_m2_MuTect2.php)
 * [SomaticSniper](http://gmt.genome.wustl.edu/packages/somatic-sniper/)
