@@ -49,7 +49,7 @@ In contrast to solid biopsies, liquid biopsies is a non-invasive method to detec
 * Liquid biopsies require a much higher level of coverage than solid biopsies
   * We need orders of magnitude higher than standard 900-1100X coverage
 
-### Examples of Variant Calling Pipelines
+## Examples of Variant Calling Pipelines
 * [MuSE](http://bioinformatics.mdanderson.org/main/MuSE), [LoFreq](http://csb5.github.io/lofreq/), [VarScan](http://varscan.sourceforge.net/), [MuTect2](https://software.broadinstitute.org/gatk/documentation/tooldocs/current/org_broadinstitute_gatk_tools_walkers_cancer_m2_MuTect2.php), [SomaticSniper](http://gmt.genome.wustl.edu/packages/somatic-sniper/), and [GDC DNA-Seq](https://docs.gdc.cancer.gov/Data/Bioinformatics_Pipelines/DNA_Seq_Variant_Calling_Pipeline/)
 
 ## Applied Human Computational Genomics Pipeline
