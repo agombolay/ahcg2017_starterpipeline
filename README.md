@@ -36,7 +36,7 @@ Dr. Vannberg's idea for mission statement: Create a yearly non-invasive preventi
 * [GRAIL](https://grail.com/science/)
 * [Guardant Health](http://www.guardanthealth.com/)
 
-* **Liquid biopsy**:  
+* **What is liquid biopsy?**:  
 In contrast to solid biopsies, liquid biopsies is a non-invasive method to detect the presence of small fragments of tumor DNA, known as circulating tumor DNA (ctDNA). ctDNA originates from somatic mutations that occur in the tumor over the course of an individual's life unlike germline mutations that are present in all cells.
 
 ## Types of alterations in liquid biopsies:
