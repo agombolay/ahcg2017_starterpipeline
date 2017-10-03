@@ -71,11 +71,11 @@ python ahcg_pipeline.py -i /path/to/FASTQ1 /path/to/FASTQ2 -o /path/to/output -p
 bedtools genomecov -ibam -g genome.bed
 ```
 
-### Obtain exon coordinates using UCSC genome browser
-* [Step-by-step instructions to download list of exon coordinates](https://github.com/agombolay/ahcg2017_starterpipeline/blob/master/transcript08.pdf)
-
 ### Filter variants by quality, depth of coverage, etc.
 * [SnpSift toolbox to filter and manipulate annotated files](http://snpeff.sourceforge.net/SnpSift.html)
+
+### Obtain exon coordinates using UCSC genome browser
+* [Step-by-step instructions to download list of exon coordinates](https://github.com/agombolay/ahcg2017_starterpipeline/blob/master/transcript08.pdf)
 
 ## Miscellaneous: Using GitHub
 * [Fork a repository](https://help.github.com/articles/fork-a-repo/)
