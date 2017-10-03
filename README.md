@@ -92,3 +92,6 @@ python ahcg_pipeline.py -i /path/to/FASTQ1 /path/to/FASTQ2 -o /path/to/output -p
 ```
 bedtools genomecov -ibam -g genome.bed
 ```
+
+### Filter variants by quality, depth of coverage, etc.
+* [SnpSift toolbox to filter and manipulate annotated files](http://snpeff.sourceforge.net/SnpSift.html)
