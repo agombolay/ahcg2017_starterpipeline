@@ -96,7 +96,7 @@ bedtools genomecov -ibam -g genome.bed
 ```
 
 ### Obtain coordinates of exons using UCSC genome browser
-* [Step-by-step instructions to download list of exon coordinates]()
+* [Step-by-step instructions to download list of exon coordinates](https://github.com/agombolay/ahcg2017_starterpipeline/blob/master/transcript08.pdf)
 
 ### Filter variants by quality, depth of coverage, type of mutation, etc.
 * [SnpSift toolbox to filter and manipulate annotated files](http://snpeff.sourceforge.net/SnpSift.html)
