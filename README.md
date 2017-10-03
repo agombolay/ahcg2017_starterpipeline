@@ -95,5 +95,9 @@ python ahcg_pipeline.py -i /path/to/FASTQ1 /path/to/FASTQ2 -o /path/to/output -p
 bedtools genomecov -ibam -g genome.bed
 ```
 
-### Filter variants by quality, depth of coverage, etc.
+### Obtain coordinates of exons using UCSC genome browser
+* [Step-by-step instructions to download list of exon coordinates]()
+
+### Filter variants by quality, depth of coverage, type of mutation, etc.
 * [SnpSift toolbox to filter and manipulate annotated files](http://snpeff.sourceforge.net/SnpSift.html)
+
