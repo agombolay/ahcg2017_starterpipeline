@@ -4,30 +4,6 @@ Author: Alli Gombolay
 About: 3rd year PhD student,Bioinformatics  
 Hobbies: Learning new programming languages!
 
-## GitHub
-* [Fork a repository](https://help.github.com/articles/fork-a-repo/)
-  * A fork is a copy of a repository
-
-## Markdown Syntax
-* [Reference for Markdown syntax](https://guides.github.com/features/mastering-markdown/)
-
-Examples:
-* Header
-```
-# This is an <h1> tag
-## This is an <h2> tag
-```
-* Emphasis
-```
-*This text will be italic*
-**This text will be bold**
-```
-* List
-```
-* Item 1
-  * Item 1a
-```
-
 ## Mission Statement
 To create robust and validated computational pipelines to detect cancer before symptoms become apparent.  
 Dr. Vannberg's idea for mission statement: Create a yearly non-invasive preventive test for cancer to save lives
@@ -101,3 +77,25 @@ bedtools genomecov -ibam -g genome.bed
 ### Filter variants by quality, depth of coverage, etc.
 * [SnpSift toolbox to filter and manipulate annotated files](http://snpeff.sourceforge.net/SnpSift.html)
 
+## Miscellaneous: Using GitHub
+* [Fork a repository](https://help.github.com/articles/fork-a-repo/)
+  * A fork is a copy of a repository
+
+* [Reference for Markdown syntax](https://guides.github.com/features/mastering-markdown/)
+
+Examples:
+* Header
+```
+# This is an <h1> tag
+## This is an <h2> tag
+```
+* Emphasis
+```
+*This text will be italic*
+**This text will be bold**
+```
+* List
+```
+* Item 1
+  * Item 1a
+```
