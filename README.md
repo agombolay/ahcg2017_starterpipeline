@@ -68,7 +68,7 @@ python ahcg_pipeline.py -i /path/to/FASTQ1 /path/to/FASTQ2 -o /path/to/output -p
 
 ### Determine Sequencing Coverage of Genome
 ```
-bedtools genomecov -ibam -g genome.bed
+bedtools genomecov -ibam -g genome.bed > output.bed
 ```
 
 ### Extract reads from specific region of BAM file
