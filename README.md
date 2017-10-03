@@ -71,6 +71,11 @@ python ahcg_pipeline.py -i /path/to/FASTQ1 /path/to/FASTQ2 -o /path/to/output -p
 bedtools genomecov -ibam -g genome.bed
 ```
 
+### Extract reads from specific region of BAM file
+```
+samtools view input.bam "Chr10:18000-45500" > output.bam
+```
+
 ### Filter variants by quality, depth of coverage, etc.
 * [SnpSift toolbox to filter and manipulate annotated files](http://snpeff.sourceforge.net/SnpSift.html)
 
