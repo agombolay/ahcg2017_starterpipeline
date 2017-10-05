@@ -72,7 +72,7 @@ bedtools genomecov -ibam -g genome.bed > output.bed
 ```
 
 ### Determine depth of coverage in certain regions of BAM file
-* https://software.broadinstitute.org/gatk/documentation/tooldocs/current/org_broadinstitute_gatk_tools_walkers_coverage_DepthOfCoverage.php
+* [GATK DepthOfCoverage tool (input list of exon regions of interest](https://software.broadinstitute.org/gatk/documentation/tooldocs/current/org_broadinstitute_gatk_tools_walkers_coverage_DepthOfCoverage.php)
 
 ### Filter variants by quality, depth of coverage, etc.
 * [SnpSift toolbox to filter and manipulate annotated files](http://snpeff.sourceforge.net/SnpSift.html)
