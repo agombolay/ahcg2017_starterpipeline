@@ -66,14 +66,14 @@ python ahcg_pipeline.py -i /path/to/FASTQ1 /path/to/FASTQ2 -o /path/to/output -p
 -g /path/to/GenomeAnalysisTK.jar -b /path/to/bowtie2 -w /path/to/genome.bt2 -r /path/to/genome.fa  
 -d /path/to/genome.vcf -t /path/to/trimmomatic-0.36.jar -a /path/to/adapters.fa -o /path/to/output
 
-### Determine Sequencing Coverage of Genome
-```
-bedtools genomecov -ibam -g genome.bed > output.bed
-```
-
 ### Extract regions of interest from BAM file
 ```
 samtools view input.bam "Chr10:18000-45500" > output.bam
+```
+
+### Determine Sequencing Coverage of Genome
+```
+bedtools genomecov -ibam -g genome.bed > output.bed
 ```
 
 ### Obtain exon coordinates using UCSC genome browser
