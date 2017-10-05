@@ -71,9 +71,9 @@ python ahcg_pipeline.py -i /path/to/FASTQ1 /path/to/FASTQ2 -o /path/to/output -p
 samtools view input.bam "Chr10:18000-45500" > output.bam
 ```
 
-### Determine Sequencing Coverage of Genome
+### Determine sequencing coverage of genome
 ```
-bedtools genomecov -ibam -g genome.bed > output.bed
+bedtools genomecov -ibam input.bam -g genome.bed > output.bed
 ```
 
 ### Obtain exon coordinates using UCSC genome browser
