@@ -71,11 +71,13 @@ python ahcg_pipeline.py -i /path/to/FASTQ1 /path/to/FASTQ2 -o /path/to/output -p
 bedtools genomecov -ibam -g genome.bed > output.bed
 ```
 
+### Extract regions of interest from BAM file
+```
+samtools view input.bam "Chr10:18000-45500" > output.bam
+```
+
 ### Obtain exon coordinates using UCSC genome browser
 * [Step-by-step instructions to download list of exon coordinates](https://github.com/agombolay/ahcg2017_starterpipeline/blob/master/transcript08.pdf)
-
-### Determine depth of coverage in certain regions of BAM file
-* [GATK DepthOfCoverage tool (input list of exon regions of interest)](https://software.broadinstitute.org/gatk/documentation/tooldocs/current/org_broadinstitute_gatk_tools_walkers_coverage_DepthOfCoverage.php)
 
 ### Filter variants by quality, depth of coverage, & type of mutation
 * [SnpSift and SnpEff toolbox to filter and manipulate annotated VCF files](http://snpeff.sourceforge.net/SnpSift.html)
