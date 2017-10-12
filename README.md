@@ -64,9 +64,6 @@ java -jar picard.jar CreateSequenceDictionary R=reference O=dictionary
 * [SRR3502999, 1day-1-CTR15](https://www.ncbi.nlm.nih.gov/sra/SRR3502999/)
 * [Newman et al, Nat Biotech 2016](https://www.nature.com/nbt/journal/v34/n5/abs/nbt.3520.html)
 
-### Install Virtual Box
-* [PDF with installation instructions](https://github.com/agombolay/ahcg2017_starterpipeline/blob/master/VM_setup.pdf)
-
 ### Command to run pipeline
 python ahcg_pipeline.py -i /path/to/FASTQ1 /path/to/FASTQ2 -o /path/to/output -p /path/to/picard.jar  
 -g /path/to/GenomeAnalysisTK.jar -b /path/to/bowtie2 -w /path/to/genome.bt2 -r /path/to/genome.fa  
@@ -91,6 +88,9 @@ bedtools genomecov -d -ibam input.bam -g genome.bed > output.bed
 ```
 cat Variants.vcf | java -jar path/to/SnpSift.jar filter "((QUAL >= 30) && (DP >= 25))" > Variants-Filtered.vcf
 ```
+
+### Install Virtual Box
+* [PDF with installation instructions](https://github.com/agombolay/ahcg2017_starterpipeline/blob/master/VM_setup.pdf)
 
 ## Miscellaneous: Using GitHub
 * [Fork a repository](https://help.github.com/articles/fork-a-repo/)
