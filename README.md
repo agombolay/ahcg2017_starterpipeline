@@ -53,12 +53,14 @@ samtools faidx reference.fa
 java -jar picard.jar CreateSequenceDictionary R=reference O=dictionary
 ```
 
-### Data 1 Acquisition
-* [Frampton et al, Nat Biotech 2013](http://www.nature.com/nbt/journal/v31/n11/full/nbt.2696.html?foxtrotcallback=true)
+### Data Acquisition
 * [SRA (Short Read Archive) Toolkit: NCBI's toolkit to convert SRA files to Fastq](https://www.ncbi.nlm.nih.gov/sra/docs/toolkitsoft/)
-* [SRR948994, 1 : 4 pool of tumor (NCI-H2126) and matched normal (NCI-H2126 BL) cell line DNA](https://www.ncbi.nlm.nih.gov/sra/SRX332536[accn])
 
-### Data 2 Acquisition
+#### Dataset 1
+* [SRR948994, NCI-H2126 20](https://www.ncbi.nlm.nih.gov/sra/SRX332536[accn])
+* [Frampton et al, Nat Biotech 2013](http://www.nature.com/nbt/journal/v31/n11/full/nbt.2696.html?foxtrotcallback=true)
+
+#### Dataset 2
 * [SRR3502999, 1day-1-CTR15](https://www.ncbi.nlm.nih.gov/sra/SRR3502999/)
 * [Newman et al, Nat Biotech 2016](https://www.nature.com/nbt/journal/v34/n5/abs/nbt.3520.html)
 
