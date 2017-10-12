@@ -73,7 +73,7 @@ samtools view input.bam "Chr10:18000-45500" > output.bam
 
 ### Determine sequencing coverage of genome
 ```
-bedtools genomecov -ibam input.bam -g genome.bed > output.bed
+bedtools genomecov -d -ibam input.bam -g genome.bed > output.bed
 ```
 
 ### Obtain exon coordinates using UCSC genome browser
