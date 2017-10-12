@@ -5,7 +5,7 @@ About: 3rd year PhD student,Bioinformatics
 Hobbies: Learning new programming languages!
 
 ## Mission Statement
-To create robust and validated computational pipelines to detect cancer before symptoms become apparent.  
+To create robust and validated computational pipeline to detect cancer before symptoms become apparent  
 Dr. Vannberg's idea for mission statement: Create a yearly non-invasive preventive test for cancer to save lives
 
 ## Liquid Biopsy Companies
