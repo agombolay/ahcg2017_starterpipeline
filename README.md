@@ -82,6 +82,10 @@ bedtools genomecov -d -ibam input.bam -g genome.bed > output.bed
 ### Filter variants by quality, depth of coverage, & type of mutation
 * [SnpSift and SnpEff toolbox to filter and manipulate annotated VCF files](http://snpeff.sourceforge.net/SnpSift.html)
 
+```
+cat Variants.vcf | java -jar path/to/SnpSift.jar filter "((QUAL >= 30) && (DP >= 25))" > Variants-Filtered.vcf
+```
+
 ## Miscellaneous: Using GitHub
 * [Fork a repository](https://help.github.com/articles/fork-a-repo/)
   * A fork is a copy of a repository
