@@ -71,8 +71,8 @@ python ahcg_pipeline.py -i /path/to/FASTQ1 /path/to/FASTQ2 -o /path/to/output -p
 -d /path/to/genome.vcf -t /path/to/trimmomatic-0.36.jar -a /path/to/adapters.fa -o /path/to/output
 
 ### Features of pipeline
-* Calculates median and max coverage  
 * Filters variants by quality and depth
+* Calculates median and max coverage  
 
 ### Extract regions of interest from BAM file
 ```
