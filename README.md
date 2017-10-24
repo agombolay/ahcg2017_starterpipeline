@@ -57,11 +57,11 @@ java -jar picard.jar CreateSequenceDictionary R=reference O=dictionary
 ### Data Acquisition
 * [SRA (Short Read Archive) Toolkit: NCBI's toolkit to convert SRA files to Fastq](https://www.ncbi.nlm.nih.gov/sra/docs/toolkitsoft/)
 
-#### Dataset 1
+#### Test Dataset 1
 * [SRR948994, NCI-H2126 20](https://www.ncbi.nlm.nih.gov/sra/SRX332536[accn])
 * [Frampton et al, Nat Biotech 2013](http://www.nature.com/nbt/journal/v31/n11/full/nbt.2696.html?foxtrotcallback=true)
 
-#### Dataset 2
+#### Test Dataset 2
 * [SRR3502999, 1day-1-CTR15](https://www.ncbi.nlm.nih.gov/sra/SRR3502999/)
 * [Newman et al, Nat Biotech 2016](https://www.nature.com/nbt/journal/v34/n5/abs/nbt.3520.html)
 
@@ -89,7 +89,7 @@ bedtools genomecov -d -ibam input.bam -g genome.bed > output.bed
 * [Step-by-step instructions to download list of exon coordinates](https://github.com/agombolay/ahcg2017_starterpipeline/blob/master/transcript08.pdf)
 
 ### Filter variants by quality and depth of sequencing coverage
-* [GATK SelectVariants tool to filter VCF files by coverage and depth](http://snpeff.sourceforge.net/SnpSift.html)
+* [GATK SelectVariants tool to filter VCF files by QUAL >= 30 && DP >= 25](http://snpeff.sourceforge.net/SnpSift.html)
 
 ```
 java -jar GenomeAnalysisTK.jar -R FASTA -T SelectVariants -V input.vcf -o output.vcf -select "QUAL >= 30 && DP >= 25"
