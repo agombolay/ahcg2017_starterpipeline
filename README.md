@@ -1,6 +1,5 @@
 # Applied Human Computational Genomics 2017
 
-exosome seq 200-250 X DNA derived from nanovesicles high molecular DNA from these, this version which can be found at this link
 exact command with test data
 
 Author: Alli Gombolay  
@@ -10,6 +9,8 @@ Hobbies: Learning new programming languages!
 ## Mission Statement
 To create robust and validated computational pipeline to detect cancer before symptoms become apparent  
 Dr. Vannberg's idea for mission statement: Create a yearly non-invasive preventive test for cancer to save lives
+
+Our project involves exome sequencing with 200-250X coverage. The DNA will be derived from nanovesicles to yield high molecular DNA. The most updated version of the computational pipeline can be found at the following link:
 
 ## Liquid Biopsy Companies
 * [GRAIL](https://grail.com/science/)
