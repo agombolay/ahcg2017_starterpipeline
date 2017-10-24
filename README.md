@@ -67,7 +67,7 @@ java -jar picard.jar CreateSequenceDictionary R=reference O=dictionary
 
 ### Command to run pipeline
 python ahcg_pipeline.py -i /path/to/FASTQ1 /path/to/FASTQ2 -o /path/to/output -p /path/to/picard.jar \  
--g /path/to/GenomeAnalysisTK.jar -b /path/to/bowtie2 -w /path/to/genome.bt2 -r /path/to/genome.fa \ 
+-g /path/to/GenomeAnalysisTK.jar -b /path/to/bowtie2 -w /path/to/genome.bt2 -r /path/to/genome.fa \  
 -d /path/to/genome.vcf -t /path/to/trimmomatic-0.36.jar -a /path/to/adapters.fa -o /path/to/output \  
 -s /path/to/guardant360.refGene_hg38.genes.bed
 
