@@ -114,3 +114,6 @@ Examples:
 * Item 1
   * Item 1a
 ```
+
+getCoverage.sh
+filter variants
