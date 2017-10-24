@@ -1,7 +1,5 @@
 # Applied Human Computational Genomics 2017
 
-exact command with test data
-
 Author: Alli Gombolay  
 About: 3rd year PhD student,Bioinformatics  
 Hobbies: Learning new programming languages!
@@ -72,6 +70,10 @@ python ahcg_pipeline.py -i /path/to/FASTQ1 /path/to/FASTQ2 -o /path/to/output -p
 -g /path/to/GenomeAnalysisTK.jar -b /path/to/bowtie2 -w /path/to/genome.bt2 -r /path/to/genome.fa  
 -d /path/to/genome.vcf -t /path/to/trimmomatic-0.36.jar -a /path/to/adapters.fa -o /path/to/output
 
+### Features of pipeline
+* Calculates median and max coverage  
+* Filters variants by quality and depth
+
 ### Extract regions of interest from BAM file
 ```
 samtools view input.bam "Chr10:18000-45500" > output.bam
@@ -117,6 +119,3 @@ Examples:
 * Item 1
   * Item 1a
 ```
-
-getCoverage.sh
-filter variants
