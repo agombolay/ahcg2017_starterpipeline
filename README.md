@@ -75,7 +75,7 @@ python ahcg_pipeline.py -i /path/to/FASTQ1 /path/to/FASTQ2 -o /path/to/output -p
 * Filters variants by quality and depth
 * Calculates median and max coverage  
 
-### Determine per base sequencing coverage of genome
+### Per base sequencing coverage of genome
 ```
 samtools depth -r CHR1:1000-2000 input.bam > output.bed
 ```
