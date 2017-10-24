@@ -10,7 +10,7 @@ Hobbies: Learning new programming languages!
 To create robust and validated computational pipeline to detect cancer before symptoms become apparent  
 Dr. Vannberg's idea for mission statement: Create a yearly non-invasive preventive test for cancer to save lives
 
-Our project involves exome sequencing with 200-250X coverage. The DNA will be derived from nanovesicles to yield high molecular DNA. The most updated version of the computational pipeline (version 1.0.5) can be found at this [link]( ahcg2017_starterpipeline/ahcg_pipeline.py).
+Our project involves exome sequencing with 200-250X coverage. The DNA will be derived from nanovesicles to yield high molecular DNA. The most updated version of the computational pipeline (version 1.0.5) can be found at this [link]( https://github.com/agombolay/ahcg2017_starterpipeline/blob/master/ahcg_pipeline.py).
 
 ## Liquid Biopsy Companies
 * [GRAIL](https://grail.com/science/)
