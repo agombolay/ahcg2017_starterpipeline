@@ -1,5 +1,8 @@
 # Applied Human Computational Genomics 2017
 
+exosome seq 200-250 X DNA derived from nanovesicles high molecular DNA from these, this version which can be found at this link
+exact command with test data
+
 Author: Alli Gombolay  
 About: 3rd year PhD student,Bioinformatics  
 Hobbies: Learning new programming languages!
