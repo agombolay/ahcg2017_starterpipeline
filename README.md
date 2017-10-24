@@ -89,7 +89,7 @@ bedtools genomecov -d -ibam input.bam -g genome.bed > output.bed
 * [Step-by-step instructions to download list of exon coordinates](https://github.com/agombolay/ahcg2017_starterpipeline/blob/master/transcript08.pdf)
 
 ### Filter variants by quality and depth of sequencing coverage
-* [GATK SelectVariants tool to filter VCF files by QUAL >= 30 && DP >= 25](http://snpeff.sourceforge.net/SnpSift.html)
+* [GATK SelectVariants to filter VCF files by QUAL >= 30 && DP >= 25](http://snpeff.sourceforge.net/SnpSift.html)
 
 ```
 java -jar GenomeAnalysisTK.jar -R FASTA -T SelectVariants -V input.vcf -o output.vcf -select "QUAL >= 30 && DP >= 25"
