@@ -69,26 +69,3 @@ samtools depth -r CHR1:1000-2000 input.bam > output.bed
 ```
 java -jar GenomeAnalysisTK.jar -R FASTA -T SelectVariants -V input.vcf -o output.vcf -select "QUAL >= 30 && DP >= 25"
 ```
-
-## Miscellaneous: Using GitHub
-* [Fork a repository](https://help.github.com/articles/fork-a-repo/)
-  * A fork is a copy of a repository
-
-* [Reference for Markdown syntax](https://guides.github.com/features/mastering-markdown/)
-
-Examples:
-* Header
-```
-# This is an <h1> tag
-## This is an <h2> tag
-```
-* Emphasis
-```
-*This text will be italic*
-**This text will be bold**
-```
-* List
-```
-* Item 1
-  * Item 1a
-```
