@@ -70,14 +70,6 @@ samtools depth -r CHR1:1000-2000 input.bam > output.bed
 java -jar GenomeAnalysisTK.jar -R FASTA -T SelectVariants -V input.vcf -o output.vcf -select "QUAL >= 30 && DP >= 25"
 ```
 
-### Install Virtual Box
-* [PDF with installation instructions](https://github.com/agombolay/ahcg2017_starterpipeline/blob/master/VM_setup.pdf)
-
-### Virtual Box Commands
-* Log in to virtual box: ssh vannberglab@localhost -p 10022
-* Copy files to virtual box: scp yourfile vannberglab@localhost:~/
-* Log out of virtual box: logout
-
 ## Miscellaneous: Using GitHub
 * [Fork a repository](https://help.github.com/articles/fork-a-repo/)
   * A fork is a copy of a repository
