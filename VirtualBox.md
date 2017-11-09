@@ -6,7 +6,5 @@
 * Log in to virtual box: ssh vannberglab@localhost -p 10022
 * Copy files to virtual box: scp yourfile vannberglab@localhost:~/
 * Power on virtual box: vboxmanage startvm Ubuntu-64-DR-AHCG --type headless
-* Power off virtual box: vboxmanage controlvm Ubuntu-64-DR-AHCG poweroff soft
-
-# How to copy folders while logged into virtual box
-scp -r agombolay3@gpuvannberg.biology.gatech.edu:/folder/ .
+* Power off virtual box (soft power off): vboxmanage controlvm Ubuntu-64-DR-AHCG poweroff soft
+* Copy folders while logged in to box: scp -r agombolay3@gpuvannberg.biology.gatech.edu:/folder/ .
