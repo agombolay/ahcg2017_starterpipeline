@@ -16,11 +16,11 @@ Our project involves exome sequencing with 200-250X coverage. The DNA will be de
 1. [Python3, Version 3.6.2](https://www.python.org/downloads/)
 2. Variant calling tools: [GATK, Version 3.8.0](https://software.broadinstitute.org/gatk/download/)
   * [Best practices with GATK's Haplotype Caller](https://software.broadinstitute.org/gatk/best-practices/bp_3step.php?case=GermShortWGS)
-3. Reference-based read aligner: [Bowtie2, Version 2.3.2](https://sourceforge.net/projects/bowtie-bio/files/bowtie2/2.3.2/bowtie2-2.3.2-legacy-linux-x86_64.zip/download)
-4. Read trimming based on quality: [Trimmomatic, Version 0.36](http://www.usadellab.org/cms/uploads/supplementary/Trimmomatic/Trimmomatic-0.36.zip)
-5. Manipulation of genomic data files: [Picard tools, Version 2.11.0](http://broadinstitute.github.io/picard/)
-6. Process SAM and BAM files: [Samtools - v1.6](https://downloads.sourceforge.net/project/samtools/samtools/1.6/samtools-1.6.tar.bz2?r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Fsamtools%2F&ts=1510018121&use_mirror=phoenixnap)
-7. [Control-FREEC v11.0](https://github.com/BoevaLab/FREEC/archive/v11.0.tar.gz)
+3. Process SAM and BAM files: [Samtools - v1.6](https://downloads.sourceforge.net/project/samtools/samtools/1.6/samtools-1.6.tar.bz2?r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Fsamtools%2F&ts=1510018121&use_mirror=phoenixnap)
+4. Reference-based read aligner: [Bowtie2, Version 2.3.2](https://sourceforge.net/projects/bowtie-bio/files/bowtie2/2.3.2/bowtie2-2.3.2-legacy-linux-x86_64.zip/download)
+5. Read trimming based on quality: [Trimmomatic, Version 0.36](http://www.usadellab.org/cms/uploads/supplementary/Trimmomatic/Trimmomatic-0.36.zip)
+6. Manipulation of genomic data files: [Picard tools, Version 2.11.0](http://broadinstitute.github.io/picard/)
+7. Detect of copy-number changes and allelic imbalances: [Control-FREEC v11.0](https://github.com/BoevaLab/FREEC/archive/v11.0.tar.gz)
 8. [R language - v3.3.2](https://cran.cnr.berkeley.edu/)
 
 ### Reference genome
