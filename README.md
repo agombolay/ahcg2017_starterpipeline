@@ -19,7 +19,7 @@ Our project involves exome sequencing with 200-250X coverage. The DNA will be de
 4. Reference-based read aligner: [Bowtie2, Version 2.3.2](https://sourceforge.net/projects/bowtie-bio/files/bowtie2/2.3.2/bowtie2-2.3.2-legacy-linux-x86_64.zip/download)
 5. Process SAM & BAM alignment files: [Samtools, Version 1.6](https://downloads.sourceforge.net/project/samtools/samtools/1.6/samtools-1.6.tar.bz2?r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Fsamtools%2F&ts=1510018121&use_mirror=phoenixnap)
 6. Call variants using HaplotypeCaller: [GATK, Version 3.8.0](https://software.broadinstitute.org/gatk/download/)
-7. Manipulation of genomic data files: [Picard tools, Version 2.11.0](http://broadinstitute.github.io/picard/)
+7. Manipulate genomic data files: [Picard tools, Version 2.11.0](http://broadinstitute.github.io/picard/)
 8. Detect copy-number changes: [Control-FREEC, Version 11.0](https://github.com/BoevaLab/FREEC/archive/v11.0.tar.gz)
 
 ### Reference genome
