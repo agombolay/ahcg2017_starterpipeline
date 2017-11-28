@@ -29,6 +29,11 @@ wget ftp://igenome:G3nom3s4u@ussd-ftp.illumina.com/Homo_sapiens/NCBI/GRCh38/Homo
 ```
 
 ```
+#Unpack human reference genome file
+tar xzvf Homo_sapiens_NCBI_GRCh38.tar.gz
+```
+
+```
 #Create FASTA index
 samtools faidx FASTA
 ```
