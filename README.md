@@ -10,8 +10,8 @@ To create an affordable non-invasive preventive medical test to detect cancer be
 Our project involves exome sequencing with 200-250X coverage. The DNA will be derived from nanovesicles to yield high molecular DNA. The most updated version of the computational pipeline (version 1.0.5) can be found at this [link]( https://github.com/agombolay/ahcg2017_starterpipeline/blob/master/ahcg_pipeline.py).
 
 ## Applied Human Computational Genomics Pipeline
-The goal of this pipeline is to detect and evaluate somatic variants that might be indicative of early stage cancer   
-This pipeline was created by the 2017 AHCG class under the supervision of Dr. Fredrik Vannberg at Georgia Tech
+The goal of this pipeline is to detect and evaluate somatic variants that might be indicative of early stage cancer.   
+This pipeline was created by the 2017 AHCG class under the supervision of Dr. Fredrik Vannberg at Georgia Tech.
 
 ### Requirements
 1. [Python3, Version 3.6.2](https://www.python.org/downloads/)
