@@ -25,7 +25,8 @@ This pipeline was created by the 2017 AHCG class under the supervision of Dr. Fr
 
 ### Reference genome
 #### Download reference genome
-* Human reference genome can be downloaded from [Illumina iGenomes](https://support.illumina.com/sequencing/sequencing_software/igenome.html)
+* Download reference from [Illumina iGenomes](https://support.illumina.com/sequencing/sequencing_software/igenome.html)
+  * Species: Homo sapiens, Source: NCBI, Build: GRCh38
 
 #### Prepare reference for pipeline
 ```
