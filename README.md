@@ -24,17 +24,15 @@ This pipeline was created by the 2017 AHCG class under the supervision of Dr. Fr
 8. Detect copy-number changes: [Control-FREEC, Version 11.0](https://github.com/BoevaLab/FREEC/archive/v11.0.tar.gz)
 
 ### Reference genome
-#### Download reference genome
+#### 1. Download reference genome
 * Download reference genome from [Illumina iGenomes](https://support.illumina.com/sequencing/sequencing_software/igenome.html)
   * Species: *Homo sapiens*, Source: NCBI, Build: GRCh38
 
-#### Prepare reference for pipeline
+#### 2. Prepare reference for pipeline
 ```
 #Create FASTA index
 samtools faidx FASTA
-```
 
-```
 #Create FASTA dictionary file
 #Note: Version 1.8 of Java is required to run Picard
 java -jar picard.jar CreateSequenceDictionary R=FASTA O=dictionary
