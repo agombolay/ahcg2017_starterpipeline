@@ -45,6 +45,18 @@ samtools faidx FASTA
 java -jar picard.jar CreateSequenceDictionary R=FASTA O=dictionary
 ```
 
+### Command to run pipeline
+```
+ahcg_pipeline_v1.0.1.py -c config_file.txt
+```
+
+### Features of pipeline
+* Filters variants by quality and depth
+* Calculates median and max coverage  
+
+### Obtain exon coordinates using UCSC genome browser
+* [Step-by-step instructions to download list of exon coordinates](https://github.com/agombolay/ahcg2017_starterpipeline/blob/master/transcript08.pdf)
+
 ### Data Acquisition
 * [SRA (Short Read Archive) Toolkit: NCBI's toolkit to convert SRA files to Fastq](https://www.ncbi.nlm.nih.gov/sra/docs/toolkitsoft/)
 
@@ -55,27 +67,3 @@ java -jar picard.jar CreateSequenceDictionary R=FASTA O=dictionary
 #### Test Dataset 2
 * [SRR3502999, 1day-1-CTR15](https://www.ncbi.nlm.nih.gov/sra/SRR3502999/)
 * [Newman et al, Nat Biotech 2016](https://www.nature.com/nbt/journal/v34/n5/abs/nbt.3520.html)
-
-### Command to run pipeline
-```
-ahcg_pipeline_v1.0.1.py -c config_file.txt
-```
-
-### Features of pipeline
-* Filters variants by quality and depth
-* Calculates median and max coverage  
-
-### Per base sequencing coverage of genome
-```
-samtools depth -r CHR1:1000-2000 input.bam > output.bed
-```
-
-### Obtain exon coordinates using UCSC genome browser
-* [Step-by-step instructions to download list of exon coordinates](https://github.com/agombolay/ahcg2017_starterpipeline/blob/master/transcript08.pdf)
-
-### Filter variants by quality and depth of sequencing coverage
-* [GATK SelectVariants to filter VCF files by QUAL >= 30 && DP >= 25](http://snpeff.sourceforge.net/SnpSift.html)
-
-```
-java -jar GenomeAnalysisTK.jar -R FASTA -T SelectVariants -V input.vcf -o output.vcf -select "QUAL >= 30 && DP >= 25"
-```
