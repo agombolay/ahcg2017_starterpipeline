@@ -25,15 +25,7 @@ This pipeline was created by the 2017 AHCG class under the supervision of Dr. Fr
 
 ### Reference genome
 #### Download reference genome
-```
-#Download human reference genome (GRCh38) from Illumina iGenomes
-wget ftp://igenome:G3nom3s4u@ussd-ftp.illumina.com/Homo_sapiens/NCBI/GRCh38/Homo_sapiens_NCBI_GRCh38.tar.gz
-```
-
-```
-#Unpack human reference genome file
-tar xzvf Homo_sapiens_NCBI_GRCh38.tar.gz
-```
+* Human reference genome can be downloaded from [Illumina iGenomes](https://support.illumina.com/sequencing/sequencing_software/igenome.html)
 
 #### Prepare reference for pipeline
 ```
