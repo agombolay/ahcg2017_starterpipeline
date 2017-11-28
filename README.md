@@ -51,8 +51,9 @@ ahcg_pipeline_v1.0.1.py -c config_file.txt
 ```
 
 ### Features of pipeline
-* Filters variants by quality and depth
-* Calculates median and max coverage  
+* Filters variants by quality (QUAL>=30) and depth (DP>=25)
+* Calculates median, average, and max coverage of certain genes
+* Detects copy number variants (CNVs) and plots summary results
 
 ### Obtain exon coordinates using UCSC genome browser
 * [Step-by-step instructions to download list of exon coordinates](https://github.com/agombolay/ahcg2017_starterpipeline/blob/master/transcript08.pdf)
