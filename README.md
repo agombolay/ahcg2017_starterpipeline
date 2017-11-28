@@ -57,8 +57,8 @@ java -jar picard.jar CreateSequenceDictionary R=FASTA O=dictionary
 * [Newman et al, Nat Biotech 2016](https://www.nature.com/nbt/journal/v34/n5/abs/nbt.3520.html)
 
 ### Command to run pipeline
-```{sh}
-./ahcg_pipeline_v1.0.1.py -c config_file.txt
+```
+ahcg_pipeline_v1.0.1.py -c config_file.txt
 ```
 
 ### Features of pipeline
