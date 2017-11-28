@@ -26,14 +26,14 @@ Our project involves exome sequencing with 200-250X coverage. The DNA will be de
 * Download human reference genome (GRCh38) from [Illumina iGenomes](https://support.illumina.com/sequencing/sequencing_software/igenome.html)
 
 ```
-#Create FASTA index file
-samtools faidx reference.fa
+#Create FASTA index
+samtools faidx FASTA
 ```
 
 ```
 #Create FASTA dictionary file
 #Note: Version 1.8 of Java is required to run Picard
-java -jar picard.jar CreateSequenceDictionary R=reference O=dictionary
+java -jar picard.jar CreateSequenceDictionary R=FASTA O=dictionary
 ```
 
 ### Data Acquisition
