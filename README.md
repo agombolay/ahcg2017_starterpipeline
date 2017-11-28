@@ -14,14 +14,21 @@ The goal of this pipeline is to detect and evaluate somatic variants that might 
 This pipeline was created by the 2017 AHCG class under the supervision of Dr. Fredrik Vannberg at Georgia Tech.
 
 ### Requirements
-1. [Python3, Version 3.6.2](https://www.python.org/downloads/)
-2. [R language, Version 3.3.2](https://cran.cnr.berkeley.edu/)
-3. Read quality trimming: [Trimmomatic, Version 0.36](http://www.usadellab.org/cms/uploads/supplementary/Trimmomatic/Trimmomatic-0.36.zip)
-4. Reference-based read aligner: [Bowtie2, Version 2.3.2](https://sourceforge.net/projects/bowtie-bio/files/bowtie2/2.3.2/bowtie2-2.3.2-legacy-linux-x86_64.zip/download)
-5. Process SAM/BAM alignment files: [Samtools, Version 1.6](https://downloads.sourceforge.net/project/samtools/samtools/1.6/samtools-1.6.tar.bz2?r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Fsamtools%2F&ts=1510018121&use_mirror=phoenixnap)
-6. Detect variants with HaplotypeCaller: [GATK, Version 3.8.0](https://software.broadinstitute.org/gatk/download/)
-7. Manipulate genomic data files: [Picard tools, Version 2.11.0](http://broadinstitute.github.io/picard/)
-8. Detect copy-number changes: [Control-FREEC, Version 11.0](https://github.com/BoevaLab/FREEC/archive/v11.0.tar.gz)
+#### Programming Languages:
+* [Python3, Version 3.6.2](https://www.python.org/downloads/)
+* [R language, Version 3.3.2](https://cran.cnr.berkeley.edu/)
+
+#### Pre-processing and alignment:
+* Read quality trimming: [Trimmomatic, Version 0.36](http://www.usadellab.org/cms/uploads/supplementary/Trimmomatic/Trimmomatic-0.36.zip)
+* Reference-based read aligner: [Bowtie2, Version 2.3.2](https://sourceforge.net/projects/bowtie-bio/files/bowtie2/2.3.2/bowtie2-2.3.2-legacy-linux-x86_64.zip/download)
+* Process SAM/BAM alignment files: [Samtools, Version 1.6](https://downloads.sourceforge.net/project/samtools/samtools/1.6/samtools-1.6.tar.bz2?r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Fsamtools%2F&ts=1510018121&use_mirror=phoenixnap)
+
+#### Call variants and post-processing:
+* Detect variants with HaplotypeCaller: [GATK, Version 3.8.0](https://software.broadinstitute.org/gatk/download/)
+* Manipulate genomic data files: [Picard tools, Version 2.11.0](http://broadinstitute.github.io/picard/)
+
+#### Analyze and evaluate somatic variants:
+* Detect copy-number changes: [Control-FREEC, Version 11.0](https://github.com/BoevaLab/FREEC/archive/v11.0.tar.gz)
 
 ### Reference genome
 #### 1. Download reference genome
