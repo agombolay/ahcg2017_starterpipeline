@@ -62,7 +62,6 @@ ahcg_pipeline_v1.0.1.py -c config_file.txt
 * [Step-by-step instructions to download list of exon coordinates](https://github.com/agombolay/ahcg2017_starterpipeline/blob/master/transcript08.pdf)
 
 ### Data Acquisition
-* [SRA (Short Read Archive) Toolkit: NCBI's toolkit to convert SRA files to Fastq](https://www.ncbi.nlm.nih.gov/sra/docs/toolkitsoft/)
 
 #### Test Dataset 1
 * [SRR948994, NCI-H2126 20](https://www.ncbi.nlm.nih.gov/sra/SRX332536[accn])
@@ -71,3 +70,5 @@ ahcg_pipeline_v1.0.1.py -c config_file.txt
 #### Test Dataset 2
 * [SRR3502999, 1day-1-CTR15](https://www.ncbi.nlm.nih.gov/sra/SRR3502999/)
 * [Newman et al, Nat Biotech 2016](https://www.nature.com/nbt/journal/v34/n5/abs/nbt.3520.html)
+
+#### Test Dataset 3
