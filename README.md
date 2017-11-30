@@ -72,3 +72,5 @@ ahcg_pipeline_v1.0.1.py -c config_file.txt
 * [SRR3502999](https://www.ncbi.nlm.nih.gov/sra/SRR3502999/); [Newman et al, Nat Biotech 2016](https://www.nature.com/nbt/journal/v34/n5/abs/nbt.3520.html)
 
 #### 3. Test Dataset 3
+* [SRR1654210 (tumor)](https://www.ncbi.nlm.nih.gov/sra/?term=SRR1654210)
+* [SRR1654222 (germline)](https://www.ncbi.nlm.nih.gov/sra/SRR1654222/)
