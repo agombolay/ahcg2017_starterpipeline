@@ -13,6 +13,8 @@ Our project involves exome sequencing with 200-250X coverage. The DNA will be de
 The goal of this pipeline is to detect and evaluate somatic variants that might be indicative of early stage cancer.   
 This pipeline was created by the 2017 AHCG class under the supervision of Dr. Fredrik Vannberg at Georgia Tech.
 
+**Note**: A virtual box with all required software is accessible at ssh vannberglab@localhost -p 10022
+
 ### Requirements
 #### Programming Languages:
 * [Python3, Version 3.6.2](https://www.python.org/downloads/)
