@@ -65,10 +65,10 @@ ahcg_pipeline_v1.0.1.py -c config_file.txt
 
 ### Data Acquisition
 
-#### Test Dataset 1
+#### 1. Test Dataset 1
 * [SRR948994](https://www.ncbi.nlm.nih.gov/sra/SRX332536[accn]); [Frampton et al, Nat Biotech 2013](http://www.nature.com/nbt/journal/v31/n11/full/nbt.2696.html?foxtrotcallback=true)
 
-#### Test Dataset 2
+#### 2. Test Dataset 2
 * [SRR3502999](https://www.ncbi.nlm.nih.gov/sra/SRR3502999/); [Newman et al, Nat Biotech 2016](https://www.nature.com/nbt/journal/v34/n5/abs/nbt.3520.html)
 
-#### Test Dataset 3
+#### 3. Test Dataset 3
