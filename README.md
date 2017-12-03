@@ -15,7 +15,7 @@ This pipeline was created by the 2017 AHCG class under the supervision of Dr. Fr
 
 **Input of pipeline**: Exome sequencing data; **Output of pipeline**: VCF file of variants
 
-The most current version of the pipeline (version 1.0.8) can be found at this [link]( https://github.com/agombolay/ahcg2017_starterpipeline/blob/master/ahcg_pipeline.py).
+The most current version of the pipeline (version 1.0.8) can be downloaded from this [link]( https://github.com/agombolay/ahcg2017_starterpipeline/blob/master/ahcg_pipeline.py).
 
 **Note**: A virtual box with all required software is accessible at ssh vannberglab@localhost -p 10022
 
