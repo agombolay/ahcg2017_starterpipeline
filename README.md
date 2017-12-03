@@ -19,7 +19,7 @@ The most current version of the pipeline (version 1.0.8) can be downloaded from 
 
 **Note**: A virtual box with required software is accessible at ssh vannberglab@localhost -p 10022
 
-### Command to run pipeline
+### How to run pipeline
 ```
 ahcg_pipeline_v1.0.1.py -c config_file.txt
 ```
