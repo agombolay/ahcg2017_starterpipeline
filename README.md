@@ -59,7 +59,7 @@ Note: Version 1.8 of Java is required to run Picard
 | `picard`      | Path to Picard Tools jar file                                   |
 | `bowtie2`     | Path to Bowtie2 executable                                      |
 | `samtools`    | Path to Samtools executable                                     |
-| `makegraph`   | Path to `makeGraph.R` script                                    |
+| `makegraph`   | Path to Control-FREEC `makeGraph.R`                             |
 | `trimmomatic` | Path to Trimmomatic jar file                                    |  
 
 ### `[data]` section
