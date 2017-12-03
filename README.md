@@ -24,7 +24,7 @@ The most current version of the pipeline (version 1.0.8) can be downloaded from 
 ahcg_pipeline_v1.0.1.py -c config_file.txt
 ```
 
-### Features of pipeline
+### Main features of pipeline
 * Takes configuration file of parameters as input
 * Automatic project sample retrieving from SRA website
 * Filters variants by quality (QUAL>=30) and depth (DP>=25)
