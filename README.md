@@ -50,8 +50,6 @@ Note: Version 1.8 of Java is required to run Picard
 * Detect copy-number changes: [Control-FREEC, Version 11.0](https://github.com/BoevaLab/FREEC/archive/v11.0.tar.gz)
 
 ## Configuration file
-## Configuration file
-
 ### `[data]` section
 
 | Option       | Description                                                                  |
