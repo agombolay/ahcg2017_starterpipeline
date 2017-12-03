@@ -80,14 +80,10 @@ Note: Version 1.8 of Java is required to run Picard
 
 ```
 [tools]
-java            = /path/to/java
-freec           = /path/to/freec
-bowtie2         = /path/to/bowtie2
-samtools        = /path/to/samtools
-makegraph       = /path/to/makeGraph.R
-gatk            = /path/to/GATK.jar
-picard          = /path/to/picard.jar
-trimmomatic     = /path/to/trimmomatic.jar
+bowtie2    = /path/to/bowtie2
+
+[data]
+inputfiles = /path/to/SRR123.fastq
 ```
 
 ## Reference genome
