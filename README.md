@@ -19,29 +19,29 @@ The most current version of the pipeline (version 1.0.8) can be downloaded from 
 
 **Note**: A virtual box with required software is accessible at ssh vannberglab@localhost -p 10022
 
-### Requirements
-#### Programming Languages:
+## Requirements
+### Programming Languages:
 * [Python3, Version 3.6.2](https://www.python.org/downloads/)
 * [R language, Version 3.3.2](https://cran.cnr.berkeley.edu/)
 
-#### Pre-processing and alignment:
+### Pre-processing and alignment:
 * Read quality trimming: [Trimmomatic, Version 0.36](http://www.usadellab.org/cms/uploads/supplementary/Trimmomatic/Trimmomatic-0.36.zip)
 * Reference-based read aligner: [Bowtie2, Version 2.3.2](https://sourceforge.net/projects/bowtie-bio/files/bowtie2/2.3.2/bowtie2-2.3.2-legacy-linux-x86_64.zip/download)
 * Process SAM/BAM alignment files: [Samtools, Version 1.6](https://downloads.sourceforge.net/project/samtools/samtools/1.6/samtools-1.6.tar.bz2?r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Fsamtools%2F&ts=1510018121&use_mirror=phoenixnap)
 
-#### Call variants and post-processing:
+### Call variants and post-processing:
 * Manipulate genomic data files: [Picard tools, Version 2.11.0](http://broadinstitute.github.io/picard/)
 * Detect variants with HaplotypeCaller: [GATK, Version 3.8.0](https://software.broadinstitute.org/gatk/download/)
 
-#### Analyze and evaluate somatic variants:
+### Analyze and evaluate somatic variants:
 * Detect copy-number changes: [Control-FREEC, Version 11.0](https://github.com/BoevaLab/FREEC/archive/v11.0.tar.gz)
 
-### Reference genome
-#### 1. Download reference genome
+## Reference genome
+### 1. Download reference genome
 * Download reference genome from [Illumina iGenomes](https://support.illumina.com/sequencing/sequencing_software/igenome.html)
   * Species: *Homo sapiens*, Source: NCBI, Build: GRCh38
 
-#### 2. Prepare reference for pipeline
+### 2. Prepare reference for pipeline
 ```
 #Create FASTA index
 samtools faidx FASTA
