@@ -49,6 +49,35 @@ Note: Version 1.8 of Java is required to run Picard
 ### Analyze and evaluate somatic variants:
 * Detect copy-number changes: [Control-FREEC, Version 11.0](https://github.com/BoevaLab/FREEC/archive/v11.0.tar.gz)
 
+## Configuration file
+## Configuration file
+
+### `[data]` section
+
+| Option       | Description                                                                  |
+|--------------|------------------------------------------------------------------------------|
+| `inputfiles` | List of paired end read files (comma sparated)                               |
+| `geneset`    | Path to the bed file with genes of interest to calculate coverage statistics |
+| `outputdir`  | Path to the output directory                                                 |
+| `adapters`   | Path to adapters fasta file to perform sequence trimming with Trimmomatic    |
+| `chrlenfile` | Path to file with chromosome lengths for Control-FREEC                       |
+| `chrfiles`   | Path to the directory with chromosomes fasta files for Control-FREEC         |
+| `dbsnp`      | Path to dbSNP vcf file for GATK                                              |
+| `index`      | Path to the prefix of the reference Bowtie2 index                            |
+| `reference`  | Path to the reference genome fasta file                                      |
+
+### `[tools]` section
+
+| Option        | Description                                                                                                |
+|---------------|------------------------------------------------------------------------------------------------------------|
+| `bowtie2`     | Path to Bowtie2 executable                                                                                 |
+| `freec`       | Path to Control-FREEC executable                                                                           |
+| `gatk`        | Path to GATK jar file                                                                                      |
+| `makegraph`   | Path to Control-FREEC `makeGraph.R` script (Usually in the folder `scripts` at the Control-FREEC root dir) |
+| `picard`      | Path to Picard jar file                                                                                    |
+| `samtools`    | Path to Samtools executable                                                                                |
+| `trimmomatic` | Path to Trimmomatic jar file     
+
 ## Reference genome
 * Download reference genome from [Illumina iGenomes](https://support.illumina.com/sequencing/sequencing_software/igenome.html)
   * Species: *Homo sapiens*, Source: NCBI, Build: GRCh38
