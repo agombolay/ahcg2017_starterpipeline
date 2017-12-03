@@ -23,6 +23,7 @@ The most current version of the pipeline (version 1.0.8) can be downloaded from 
 ```
 ahcg_pipeline_v1.0.1.py -c config_file.txt
 ```
+#Note: Version 1.8 of Java is required to run Picard
 
 ### Main features of pipeline
 * Takes configuration file of parameters as input
@@ -53,13 +54,7 @@ ahcg_pipeline_v1.0.1.py -c config_file.txt
 * Download reference genome from [Illumina iGenomes](https://support.illumina.com/sequencing/sequencing_software/igenome.html)
   * Species: *Homo sapiens*, Source: NCBI, Build: GRCh38
   * FASTA file (.fa) and FASTA index file (.fai) are required
-
-### 2. Prepare reference for pipeline
-```
-#Create FASTA dictionary file
-#Note: Version 1.8 of Java is required to run Picard commands
-java -jar picard.jar CreateSequenceDictionary R=FASTA O=dictionary
-```
+  * Sequence dictionary of FASTA is required (create using Picard)
 
 ## Data Acquisition
 
