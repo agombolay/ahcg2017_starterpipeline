@@ -63,9 +63,6 @@ samtools faidx FASTA
 java -jar picard.jar CreateSequenceDictionary R=FASTA O=dictionary
 ```
 
-## Exon coordinates
-* [Step-by-step instructions to download list of exon coordinates](https://github.com/agombolay/ahcg2017_starterpipeline/blob/master/transcript08.pdf)
-
 ## Data Acquisition
 
 ### 1. Test Dataset 1
@@ -77,3 +74,6 @@ java -jar picard.jar CreateSequenceDictionary R=FASTA O=dictionary
 
 ### 3. Test Dataset 3
 * [SRR3502999](https://www.ncbi.nlm.nih.gov/sra/SRR3502999/); [Newman et al, Nat Biotech 2016](https://www.nature.com/nbt/journal/v34/n5/abs/nbt.3520.html)
+
+## Exon coordinates
+* [Step-by-step instructions to download list of exon coordinates](https://github.com/agombolay/ahcg2017_starterpipeline/blob/master/transcript08.pdf)
