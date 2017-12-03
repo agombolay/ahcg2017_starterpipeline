@@ -102,4 +102,5 @@ mkdir -p data/reads data/reference data/adapters output
 * [SRR1654222 (germline exome data)](https://www.ncbi.nlm.nih.gov/sra/SRR1654222/)
 
 ## Exon coordinates
+To obtain a list of genes to input into the pipeline, follow these directions:
 * [Step-by-step instructions to download list of exon coordinates](https://github.com/agombolay/ahcg2017_starterpipeline/blob/master/transcript08.pdf)
