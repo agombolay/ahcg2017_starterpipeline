@@ -13,7 +13,10 @@ To create an affordable non-invasive preventive medical test to detect cancer be
 The goal of this pipeline is to detect and evaluate somatic variants that might be indicative of early stage cancer.   
 This pipeline was created by the 2017 AHCG class under the supervision of Dr. Fredrik Vannberg at Georgia Tech.
 
-The input of the pipeline is exome sequencing data. The pipeline (version 1.0.8) can be found at this [link]( https://github.com/agombolay/ahcg2017_starterpipeline/blob/master/ahcg_pipeline.py).
+Input of pipeline: Exome sequencing data
+Output of pipeline: VCF file of variants
+
+The pipeline (version 1.0.8) can be found at this [link]( https://github.com/agombolay/ahcg2017_starterpipeline/blob/master/ahcg_pipeline.py).
 
 **Note**: A virtual box with all required software is accessible at ssh vannberglab@localhost -p 10022
 
