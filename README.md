@@ -52,12 +52,10 @@ ahcg_pipeline_v1.0.1.py -c config_file.txt
 ### 1. Download reference genome
 * Download reference genome from [Illumina iGenomes](https://support.illumina.com/sequencing/sequencing_software/igenome.html)
   * Species: *Homo sapiens*, Source: NCBI, Build: GRCh38
+  * FASTA file (.fa) and FASTA index file (.fai) are required
 
 ### 2. Prepare reference for pipeline
 ```
-#Create FASTA index
-samtools faidx FASTA
-
 #Create FASTA dictionary file
 #Note: Version 1.8 of Java is required to run Picard commands
 java -jar picard.jar CreateSequenceDictionary R=FASTA O=dictionary
