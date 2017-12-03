@@ -59,21 +59,21 @@ ahcg_pipeline_v1.0.1.py -c config_file.txt
 samtools faidx FASTA
 
 #Create FASTA dictionary file
-#Note: Version 1.8 of Java is required to run Picard
+#Note: Version 1.8 of Java is required to run Picard commands
 java -jar picard.jar CreateSequenceDictionary R=FASTA O=dictionary
 ```
 
-### Obtain exon coordinates using UCSC genome browser
+## Obtain exon coordinates using UCSC genome browser
 * [Step-by-step instructions to download list of exon coordinates](https://github.com/agombolay/ahcg2017_starterpipeline/blob/master/transcript08.pdf)
 
-### Data Acquisition
+## Data Acquisition
 
-#### 1. Test Dataset 1
+### 1. Test Dataset 1
 * [SRR1654210 (tumor exome data)](https://www.ncbi.nlm.nih.gov/sra/?term=SRR1654210)
 * [SRR1654222 (germline exome data)](https://www.ncbi.nlm.nih.gov/sra/SRR1654222/)
 
-#### 2. Test Dataset 2
+### 2. Test Dataset 2
 * [SRR948994](https://www.ncbi.nlm.nih.gov/sra/SRX332536[accn]); [Frampton et al, Nat Biotech 2013](http://www.nature.com/nbt/journal/v31/n11/full/nbt.2696.html?foxtrotcallback=true)
 
-#### 3. Test Dataset 3
+### 3. Test Dataset 3
 * [SRR3502999](https://www.ncbi.nlm.nih.gov/sra/SRR3502999/); [Newman et al, Nat Biotech 2016](https://www.nature.com/nbt/journal/v34/n5/abs/nbt.3520.html)
