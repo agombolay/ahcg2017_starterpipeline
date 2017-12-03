@@ -54,15 +54,15 @@ Note: Version 1.8 of Java is required to run Picard
 
 | Option       | Description                                                                  |
 |--------------|------------------------------------------------------------------------------|
-| `inputfiles` | List of paired end read files (comma sparated)                               |
-| `geneset`    | Path to the bed file with genes of interest to calculate coverage statistics |
-| `outputdir`  | Path to the output directory                                                 |
+| `index`      | Path to Bowtie2 indices
+| `outputdir`  | Path to the output directory
+| `reference`  | Path to the reference genome fasta file
+| `inputfiles` | List of paired-end read files (comma sparated)                               |
+| `dbsnp`      | Path to dbSNP vcf file of known variants for GATK                            |
+| `geneset`    | Path to bed file with genes of interest to calculate coverage statistics     |
 | `adapters`   | Path to adapters fasta file to perform sequence trimming with Trimmomatic    |
+| `chrfiles`   | Path to directory with chromosome fasta files for Control-FREEC              |
 | `chrlenfile` | Path to file with chromosome lengths for Control-FREEC                       |
-| `chrfiles`   | Path to the directory with chromosomes fasta files for Control-FREEC         |
-| `dbsnp`      | Path to dbSNP vcf file for GATK                                              |
-| `index`      | Path to the prefix of the reference Bowtie2 index                            |
-| `reference`  | Path to the reference genome fasta file                                      |
 
 ### `[tools]` section
 
