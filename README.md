@@ -71,7 +71,7 @@ Note: Version 1.8 of Java is required to run Picard
 | `reference`  | Path to the reference genome fasta file                          |
 | `inputfiles` | List of paired-end read files (comma sparated)                   |
 | `dbsnp`      | Path to dbSNP vcf file of known variants for GATK                |
-| `geneset`    | Path to BED with genes to calculate coverage statistics          |
+| `geneset`    | Path to BED of genes for which to calculate coverage metrics     |
 | `adapters`   | Path to FASTA containing sequencing adapters for Trimmomatic     |
 | `chrfiles`   | Path to directory with chromosome FASTA files for Control-FREEC  |
 | `chrlenfile` | Path to files containing lengths of chromosomes for Control-FREEC|
