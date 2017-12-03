@@ -19,6 +19,18 @@ The most current version of the pipeline (version 1.0.8) can be downloaded from 
 
 **Note**: A virtual box with required software is accessible at ssh vannberglab@localhost -p 10022
 
+### Command to run pipeline
+```
+ahcg_pipeline_v1.0.1.py -c config_file.txt
+```
+
+### Features of pipeline
+* Takes configuration file of parameters as input
+* Automatic project sample retrieving from SRA website
+* Filters variants by quality (QUAL>=30) and depth (DP>=25)
+* Calculates median, average, and max coverage of certain genes
+* Detects copy number variants (CNVs) and plots summary results
+
 ## Requirements
 ### Programming Languages:
 * [Python3, Version 3.6.2](https://www.python.org/downloads/)
@@ -50,19 +62,6 @@ samtools faidx FASTA
 #Note: Version 1.8 of Java is required to run Picard
 java -jar picard.jar CreateSequenceDictionary R=FASTA O=dictionary
 ```
-
-### Command to run pipeline
-```
-ahcg_pipeline_v1.0.1.py -c config_file.txt
-```
-
-### Features of pipeline
-* Takes configuration file of parameters as input
-* Automatic project sample retrieving from SRA website
-* Filters variants by quality (QUAL>=30) and depth (DP>=25)
-* Calculates median, average, and max coverage of certain genes
-* Detects copy number variants (CNVs) and plots summary results
- 
 
 ### Obtain exon coordinates using UCSC genome browser
 * [Step-by-step instructions to download list of exon coordinates](https://github.com/agombolay/ahcg2017_starterpipeline/blob/master/transcript08.pdf)
