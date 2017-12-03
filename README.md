@@ -9,11 +9,11 @@ Acknowledgements: Dr. Fredrik Vannberg and Cai Huang
 ## Mission Statement
 To create an affordable non-invasive preventive medical test to detect cancer before symptoms become apparent
 
-Our project involves exome sequencing with 200-250X coverage. The DNA will be derived from nanovesicles to yield high molecular DNA. The most updated version of the computational pipeline (version 1.0.5) can be found at this [link]( https://github.com/agombolay/ahcg2017_starterpipeline/blob/master/ahcg_pipeline.py).
-
 ## Applied Human Computational Genomics Pipeline
 The goal of this pipeline is to detect and evaluate somatic variants that might be indicative of early stage cancer.   
 This pipeline was created by the 2017 AHCG class under the supervision of Dr. Fredrik Vannberg at Georgia Tech.
+
+The pipeline was designed to analyze exome sequencing data derived from nanovesicles. The most updated version of the computational pipeline (version 1.0.8) can be found at this [link]( https://github.com/agombolay/ahcg2017_starterpipeline/blob/master/ahcg_pipeline.py).
 
 **Note**: A virtual box with all required software is accessible at ssh vannberglab@localhost -p 10022
 
