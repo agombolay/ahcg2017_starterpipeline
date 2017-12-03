@@ -74,7 +74,7 @@ Note: Version 1.8 of Java is required to run Picard
 | `geneset`    | Path to BED with genes to calculate coverage statistics          |
 | `adapters`   | Path to FASTA containing sequencing adapters for Trimmomatic     |
 | `chrfiles`   | Path to directory with chromosome FASTA files for Control-FREEC  |
-| `chrlenfile` | Path to .len files with lengths of chromosomes for Control-FREEC |
+| `chrlenfile` | Path to files containing lengths of chromosomes for Control-FREEC|
 
 ## Reference genome
 * Download reference genome from [Illumina iGenomes](https://support.illumina.com/sequencing/sequencing_software/igenome.html)
