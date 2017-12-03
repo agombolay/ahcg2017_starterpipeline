@@ -76,6 +76,20 @@ Note: Version 1.8 of Java is required to run Picard
 | `chrfiles`   | Path to directory with chromosome FASTA files for Control-FREEC  |
 | `chrlenfile` | Path to files containing lengths of chromosomes for Control-FREEC|
 
+### Example of config file
+
+```
+[tools]
+java            = /path/to/java
+freec           = /path/to/freec
+bowtie2         = /path/to/bowtie2
+samtools        = /path/to/samtools
+makegraph       = /path/to/makeGraph.R
+gatk            = /path/to/GATK.jar
+picard          = /path/to/picard.jar
+trimmomatic     = /path/to/trimmomatic.jar
+```
+
 ## Reference genome
 * Download reference genome from [Illumina iGenomes](https://support.illumina.com/sequencing/sequencing_software/igenome.html)
   * Species: *Homo sapiens*, Source: NCBI, Build: GRCh38
