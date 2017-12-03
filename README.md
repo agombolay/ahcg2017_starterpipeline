@@ -56,7 +56,7 @@ Note: Version 1.8 of Java is required to run Picard
 |---------------|-----------------------------------------------------------------|
 | `gatk`        | Path to GATK JAR file                                           |
 | `freec`       | Path to Control-FREEC                                           |
-| `picard`      | Path to Picard JAR file                                         |
+| `picard`      | Path to Picard Tools JAR file                                   |
 | `bowtie2`     | Path to Bowtie2 executable                                      |
 | `samtools`    | Path to Samtools executable                                     |
 | `makegraph`   | Path to `makeGraph.R` script                                    |
