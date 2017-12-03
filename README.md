@@ -56,6 +56,11 @@ Note: Version 1.8 of Java is required to run Picard
   * FASTA (.fa) and FASTA index reference files (.fai) are required
   * Sequence dictionary of FASTA is required (create using Picard)
 
+### Building directory structure
+```
+mkdir -p data/reads data/reference data/adapters output 
+```
+
 ## Data Acquisition
 
 ### 1. Test Dataset 1
