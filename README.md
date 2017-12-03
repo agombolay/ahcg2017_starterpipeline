@@ -50,31 +50,31 @@ Note: Version 1.8 of Java is required to run Picard
 * Detect copy-number changes: [Control-FREEC, Version 11.0](https://github.com/BoevaLab/FREEC/archive/v11.0.tar.gz)
 
 ## Configuration file
-### `[data]` section
-
-| Option       | Description                                                               |
-|--------------|---------------------------------------------------------------------------|
-| `index`      | Path to Bowtie2 indices                                                   |
-| `outputdir`  | Path to the output directory                                              |
-| `reference`  | Path to the reference genome fasta file                                   |
-| `inputfiles` | List of paired-end read files (comma sparated)                            |
-| `dbsnp`      | Path to dbSNP vcf file of known variants for GATK                         |
-| `geneset`    | Path to BED with genes to calculate coverage statistics                   |
-| `adapters`   | Path to FASTA containing sequencing adapters for Trimmomatic              |
-| `chrfiles`   | Path to directory with chromosome FASTA files for Control-FREEC           |
-| `chrlenfile` | Path to .len files with lengths of chromosomes for Control-FREEC          |
-
 ### `[tools]` section
 
-| Option        | Description                                                              |
-|---------------|--------------------------------------------------------------------------|
-| `gatk`        | Path to GATK jar file                                                    |
-| `freec`       | Path to Control-FREEC                                                    |
-| `picard`      | Path to Picard jar file                                                  |
-| `bowtie2`     | Path to Bowtie2 executable                                               |
-| `samtools`    | Path to Samtools executable                                              |
-| `makegraph`   | Path to Control-FREEC `makeGraph.R` script                               |
-| `trimmomatic` | Path to Trimmomatic jar file                                             |   
+| Option        | Description                                                     |
+|---------------|-----------------------------------------------------------------|
+| `gatk`        | Path to GATK jar file                                           |
+| `freec`       | Path to Control-FREEC                                           |
+| `picard`      | Path to Picard jar file                                         |
+| `bowtie2`     | Path to Bowtie2 executable                                      |
+| `samtools`    | Path to Samtools executable                                     |
+| `makegraph`   | Path to `makeGraph.R` script                                    |
+| `trimmomatic` | Path to Trimmomatic jar file                                    |  
+
+### `[data]` section
+
+| Option       | Description                                                      |
+|--------------|------------------------------------------------------------------|
+| `index`      | Path to Bowtie2 indices                                          |
+| `outputdir`  | Path to the output directory                                     |
+| `reference`  | Path to the reference genome fasta file                          |
+| `inputfiles` | List of paired-end read files (comma sparated)                   |
+| `dbsnp`      | Path to dbSNP vcf file of known variants for GATK                |
+| `geneset`    | Path to BED with genes to calculate coverage statistics          |
+| `adapters`   | Path to FASTA containing sequencing adapters for Trimmomatic     |
+| `chrfiles`   | Path to directory with chromosome FASTA files for Control-FREEC  |
+| `chrlenfile` | Path to .len files with lengths of chromosomes for Control-FREEC |
 
 ## Reference genome
 * Download reference genome from [Illumina iGenomes](https://support.illumina.com/sequencing/sequencing_software/igenome.html)
