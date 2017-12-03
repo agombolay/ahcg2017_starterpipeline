@@ -13,17 +13,17 @@ To create an affordable non-invasive preventive medical test to detect cancer be
 The goal of this pipeline is to detect and evaluate somatic variants that might be indicative of early stage cancer.   
 This pipeline was created by the 2017 AHCG class under the supervision of Dr. Fredrik Vannberg at Georgia Tech.
 
-**Input of pipeline**: Exome sequencing data; **Output of pipeline**: VCF file of variants
+* **Input of pipeline**: Exome sequencing data; **Output of pipeline**: VCF file of variants
 
-The most current version of the pipeline (version 1.0.8) can be downloaded from this [link]( https://github.com/agombolay/ahcg2017_starterpipeline/blob/master/ahcg_pipeline.py).
+* The most current version of the pipeline (version 1.0.8) can be downloaded from this [link]( https://github.com/agombolay/ahcg2017_starterpipeline/blob/master/ahcg_pipeline.py).
 
-**Note**: A virtual box with required software is accessible at ssh vannberglab@localhost -p 10022
+* **Note**: A virtual box with required software is accessible at ssh vannberglab@localhost -p 10022
 
 ### How to run pipeline
 ```
 ahcg_pipeline_v1.0.1.py -c config_file.txt
 ```
-#Note: Version 1.8 of Java is required to run Picard
+Note: Version 1.8 of Java is required to run Picard
 
 ### Main features of pipeline
 * Takes configuration file of parameters as input
@@ -53,7 +53,7 @@ ahcg_pipeline_v1.0.1.py -c config_file.txt
 ### 1. Download reference genome
 * Download reference genome from [Illumina iGenomes](https://support.illumina.com/sequencing/sequencing_software/igenome.html)
   * Species: *Homo sapiens*, Source: NCBI, Build: GRCh38
-  * FASTA file (.fa) and FASTA index file (.fai) are required
+  * FASTA (.fa) and FASTA index reference files (.fai) are required
   * Sequence dictionary of FASTA is required (create using Picard)
 
 ## Data Acquisition
