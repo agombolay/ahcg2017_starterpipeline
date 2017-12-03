@@ -7,7 +7,7 @@ Hobbies: Learning new programming languages!
 Acknowledgements: Dr. Fredrik Vannberg and Cai Huang
 
 ## Mission Statement
-To create an affordable non-invasive preventive medical test to detect cancer before symptoms become apparent
+To create an affordable non-invasive preventive blood test to detect cancer before symptoms become apparent
 
 ## Applied Human Computational Genomics Pipeline
 The goal of this pipeline is to detect and evaluate somatic variants that might be indicative of early stage cancer.   
