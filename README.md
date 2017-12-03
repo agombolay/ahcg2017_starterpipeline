@@ -63,7 +63,7 @@ samtools faidx FASTA
 java -jar picard.jar CreateSequenceDictionary R=FASTA O=dictionary
 ```
 
-## Obtain exon coordinates using UCSC genome browser
+## Exon coordinates
 * [Step-by-step instructions to download list of exon coordinates](https://github.com/agombolay/ahcg2017_starterpipeline/blob/master/transcript08.pdf)
 
 ## Data Acquisition
